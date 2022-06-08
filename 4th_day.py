@@ -18,20 +18,3 @@ print(type(fruits))
 num_list = ["one","two","three"]
 which_item = num_list[1]
 print(which_item)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
