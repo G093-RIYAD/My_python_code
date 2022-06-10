@@ -18,3 +18,20 @@ print(type(fruits))
 num_list = ["one","two","three"]
 which_item = num_list[1]
 print(which_item)
+
+num_list = ["one","two","three"]
+print(num_list[1])
+print(num_list[-2])
+print(num_list[-1])
+
+#sort list
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+print(thislist)
+thislist.sort()
+print(thislist)
+
+this_num_list = [100,20,69,56,82,90]
+shorted_list = sorted(this_num_list)
+print(this_num_list)
+print(shorted_list)
