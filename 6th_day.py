@@ -21,4 +21,4 @@ print(the_user_number)
 
 number = int(input("Give a number:"))
 the_user_number = number>= 80
-
+print(f"The number is greater than or equals 80: {the_user_number}")
