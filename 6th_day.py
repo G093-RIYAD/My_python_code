@@ -11,3 +11,9 @@ if marks > 90 or marks < 40:
         print("Not so good!")
 else:
     print("you are okay.")
+#The boolian value.
+
+the_user_number = 80 > 60
+print(the_user_number)
+the_user_number = 80 < 60
+print(the_user_number)
