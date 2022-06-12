@@ -17,3 +17,6 @@ the_user_number = 80 > 60
 print(the_user_number)
 the_user_number = 80 < 60
 print(the_user_number)
+
+
+number = int(input("Give a number:"))
