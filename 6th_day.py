@@ -20,3 +20,5 @@ print(the_user_number)
 
 
 number = int(input("Give a number:"))
+the_user_number = number>= 80
+
