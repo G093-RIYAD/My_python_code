@@ -3,11 +3,11 @@ marks = int(input("Your markes in programming : "))
 def your_grade (grade):
     print(f"You have got: {grade}")
 
-if marks >= 90:
-    print("your mareks is excellent")
+if marks > 90 or marks < 40:
+    print("your marks are vary good or bad.")
     if marks > 80:
-        print("your are good")
-elif marks <= 40:
-    print("your isn't good")
+        print("yor marks are good")
+    else:
+        print("Not so good!")
 else:
-    print("you are okey")
+    print("you are okay.")
