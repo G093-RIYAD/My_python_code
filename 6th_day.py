@@ -55,4 +55,19 @@ if b > a:
 else:
     print("b isn't grater than a")
 
+    def even_num(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+
+starting = 0
+while starting < 1000:
+    if even_num(starting):
+        print(f"{starting} is Even")
+    else:
+        print(f"{starting} is Odd")
+    starting = starting + 1
+
+print("Finished")
 
