@@ -42,3 +42,10 @@ while starting <= user_input:
     starting = starting + 1
 print(f"Even numbers : {even_numbers}")
 print("Finished")
+
+#Python For Loops
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
