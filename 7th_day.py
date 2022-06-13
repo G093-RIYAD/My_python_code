@@ -33,11 +33,6 @@ while starting < 1000:
 
 print("Finished")
 
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
-  if x == "banana":
-    break
 even_numbers = []
 starting = 0
 user_input = int(input("Limit : "))
@@ -56,3 +51,9 @@ for x in fruits:
 
 for x in "banana":
   print(x)
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
