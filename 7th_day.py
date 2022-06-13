@@ -1,3 +1,9 @@
+#trying some while loop code
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+
 def even_num(number):
     if number % 2 == 0:
         return True
