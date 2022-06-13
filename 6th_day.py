@@ -60,14 +60,3 @@ else:
         return True
     else:
         return False
-
-starting = 0
-while starting < 1000:
-    if even_num(starting):
-        print(f"{starting} is Even")
-    else:
-        print(f"{starting} is Odd")
-    starting = starting + 1
-
-print("Finished")
-
