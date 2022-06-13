@@ -9,6 +9,12 @@ def even_num(number):
         return True
     else:
         return False
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
       
 starting = 0
 while starting < 1000:
