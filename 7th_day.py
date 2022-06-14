@@ -71,3 +71,5 @@ for x in fruits:
     continue
   print(x)
 
+for x in range(6):
+  print(x)
